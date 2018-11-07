@@ -3,13 +3,35 @@
 <head>
 	<title>Rock, Paper, Scissors</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	
 </head>
 <body>
 
+ <div class="game">
+         <div id="intro"></div>
+         <center><button class="choice" id="rock"><img src="https://image.shutterstock.com/image-vector/family-gathering-cartoon-vector-rocks-260nw-173317940.jpg" />ROCK</button>
+         <button class="choice" id="paper"><img src="https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-019-512.png" />PAPER</button>
+         <button class="choice" id="scissors"><img src="https://image.shutterstock.com/image-vector/cute-happy-cartoon-character-sharp-260nw-207931405.jpg" style="width: 35" />SCISSORS</button></center>
+         <span id="result"><center>Click 'Player' to change your name and choose an option to play! Good luck!</center></span>
 
+<div class="score-board"><center>
+	<div class="player">
+		<h2 id="name">Player</h2><p class="alignleft"></p>
+		<div class="score-box"><h1 id="yourScore">0</h1></div>
+	</div>
+	<div class="player">
+		<h2 id="comp">Computer</h2><p class="alignright"></p>
+		<div class="score-box"><h1 id="compScore">0</h1></div>
+	</div></center>
+</div>
+
+
+<!-- <h2 class="button" id="reset"><center>Reset Score</center></h2</h2> -->
+
+<center><button class="button" id="reset"><h2>RESET</h2></button></center>
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script href="site.js" type="text/javascript"></script>
+<script src="site.js" type="text/javascript"></script>
 </body>
 </html>
